@@ -1,6 +1,16 @@
 @import url(./fonts.css);
 @import url(./partials/_variables.css);
+@import url(./partials/_global.css);
 
+#particles-js{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(12, 12, 11, 0.3);
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
 /* nav */
 
 .head .main_menu .navbar .navbar-brand{
@@ -15,7 +25,7 @@
     font: normal 500 15px/2px var(--poppins);
     text-transform: uppercase;
     padding: 1.7rem;
-    color: var(--title-color);
+    color: whitesmoke
 }
 
 .head .main_menu .navbar-nav .active{
@@ -35,8 +45,38 @@
 
 /* banner */
 .site-main .site-banner{
-    background: transparent no-repeat;
-    background-position: 0% 50%;
+    background: transparent no-repeat 0% 50%;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+
+}
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);   
+}
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-img > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+.title-text{
+    font: normal bold 50px/72px var(--poppins);
 }
 
 /* end banner */
