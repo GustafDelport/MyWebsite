@@ -80,3 +80,205 @@
 }
 
 /* end banner */
+
+/* About */
+.site-main .about-area{
+    padding: 8rem 5rem;
+    position: relative;
+    background: var(--box-shadow);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: var(--text-color);
+}
+
+.site-main .about-area .about-title h2 >span{
+    display: block;
+    font: normal bold 49px/60px var(--poppins);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding:.4rem 0;
+}
+
+/* end About */
+
+/* skills area */
+.skills-area{
+    position: relative;
+    background: #2a2e31;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+.skills-area .skills-info .skills{
+    position: relative;
+    background-color: transparent;
+    padding: 25px 30px;
+    margin-bottom: 25px;
+}
+
+.skills-area .skills-info .skills .skills-inner i{
+    font-size: 15px
+}
+
+.skills-area .skills-inner i{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.skills-area .skills-info .skills .skills-inner:last-of-type p{
+    padding-bottom: 0
+}
+
+.skills-area .skills-info .skills .skills-inner p{
+    padding-bottom: 22px;
+    margin: 0
+}
+
+.skills-area .skills-info .skills h4{
+    font-size: 18px;
+    margin: 0;
+    font-family: var(--poppins);
+    margin-bottom: 6px;
+    letter-spacing: .5px;
+    color: white;
+}
+
+.skills-area .skills-info .skills h4:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.site-main .skills-info p{
+    padding:.4rem 0;
+    font-size: 20px;
+    color: white;
+}
+
+#skills-div{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* skills area */
+
+.journey-area{
+    position: relative;
+    background: #1b1b1a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}
+
+.journey-area .resume-item{
+    position: relative;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    border-left: 2px solid;
+}
+
+.journey-area .resume-item h4{
+    font-size: 15px;
+    font-faxt-transform: capitalize;
+    color: #fff;
+    margin-bottom: 15px;
+}mily: var(--poppins);
+    font-weight: 600;
+    line-height: 1;
+    te
+
+.journey-area .resume-item .resume-date{
+    display: inline-block;
+    font-family: var(--poppins);
+    color: #0cd137;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 600;
+    margin: 0;
+}
+
+.journey-area .resume-item a{
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 10px;;
+    letter-spacing: .3px;
+    color: #bdbcbd;
+}
+
+.journey-area .resume-item i{
+    display: block;
+    margin-bottom: 10px;;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: .3px;
+    color: #bdbcbd;
+}
+
+
+.journey-area .resume-item p{
+    color: var(--text-color);
+    font: normal 500 16px/25px var(--poppins);
+    color: white;
+}
+#acus{
+    display: block;
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 10px;;
+    letter-spacing: .3px;
+    color: #bdbcbd; 
+}
+
+.contact-area .resume-item p{
+    color: var(--text-color);
+    font: normal 500 16px/25px var(--poppins);
+    color: white;
+}
+
+.contact-area .resume-item i{
+    display: block;
+    margin-bottom: 10px;;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: .3px;
+    color: #bdbcbd;
+}
+
+.contact-area .resume-item a{
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 10px;;
+    letter-spacing: .3px;
+    color: #bdbcbd;
+}
+
+.contact-area .resume-item h4{
+    font-size: 15px;
+    font-family: var(--poppins);
+    font-weight: 600;
+    line-height: 1;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.contact-area .resume-item{
+    position: relative;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+    border-left: 2px solid;
+}
+
+.contact-area{
+    margin-bottom: 40px;
+    position: relative;
+    background: #2a2e31;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+}

@@ -1,5 +1,25 @@
 .title-text{
     font: normal bold 50px/72px var(--poppins);
+    margin-bottom: 1px;
+}
+
+.title-text h2{
+    font: normal bold 30px/50px var(--poppins);
+    line-height: 1;
+    letter-spacing: .7px;
+    margin: 0;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.title-text h3{
+    font: normal bold 30px/50px var(--poppins);
+    line-height: 1;
+    letter-spacing: .7px;
+    margin: 0;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    color: var(--gradient-color);
 }
 
 .text-uppercase{
@@ -48,4 +68,9 @@
     background: var(--gradient-color);
     color: whitesmoke;
     box-shadow: var(--box-shadow);  
+}
+
+p.para{
+    color: var(--text-color);
+    font: normal 500 16px/25px var(--poppins);
 }
