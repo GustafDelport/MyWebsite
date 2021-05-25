@@ -2,119 +2,475 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Gustaf Delport</title>
-    
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/all.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+  <title>Gustaf Delport</title>
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <!-- Header -->
-    <header class="head">
-        <div class="main_menu">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-                <div class="container-fluid" >
-                  <a class="navbar-brand" href="#"><img src="" alt="logo" ></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                     <div class="container"></div>
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Story</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
+  <!-- Header -->
+  <header class="head">
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="container"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#journey">Journey</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </header>
-    <!-- End Header -->
+      </nav>
+    </div>
+  </header>
+  <!-- End Header -->
 
-    <!-- Main Area -->
+  <!-- Main Area -->
 
-    <main class="site-main">
-        <!-- Banner Area -->
-        <section class="site-banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 site-title">
-                        <h3 class="title-text">Hey</h3>
-                        <h1 class="title-text text-uppercase">I am Gustaf</h1>
-                        <h4 class="title-text text-uppercase">Software Engineering Student</h4>
-                        <div class="site-buttons">
-                            <div class="d-flex-row flex-wrap">
-                                <button type="button" class="btn button primary-btn mr-4 text-uppercase">Intrested?</button>
-                                <button type="button" class="btn button secondary-btn text-uppercase">Get CV</button>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-6 col-md-12 banner-img">
-                        <img src="./img/Banner-Img.png" alt="Banner-Img" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Banner Area -->
-
-        <!-- About Area -->
-        <section class="about-area">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-6 col-md-12">
-                <div class="about-img">
-                  <img src="./img/About-Img.png" alt="About Image" class="img-fliud">
-                </div>
+  <main class="site-main">
+    <!-- Banner Area -->
+    <section class="site-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 site-title">
+            <h3 class="title-text">Hey</h3>
+            <h1 class="title-text text-uppercase">I am Gustaf</h1>
+            <h4 class="title-text text-uppercase">Software Engineering Student</h4>
+            <div class="site-buttons">
+              <div class="d-flex-row flex-wrap">
+                <a href="#contact" class="btn button primary-btn mr-4 text-uppercase">Intrested?</a>
+                <a href="./assets/Gustaf_Delport_CV.pdf" class="btn button secondary-btn text-uppercase" download>Get
+                  CV</a>
               </div>
-              <div class="col-lg-6 col-md-12 about-title">
-                <h2 class="text-uppercase pt-5">
-                  <span>Let me</span>
-                  <span>introduce</span>
-                  <span>myself</span>
-                </h2>
-                <div class="paragraph py-4 w-75">
-                  <p class="para">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat doloribus enim maiores dolor, 
-                    aspernatur maxime amet quisquam. Odit, illum. Assumenda iure vel delectus nam quibusdam fuga 
-                    voluptatum itaque, accusamus consectetur quidem, temporibus quam autem culpa eveniet quaerat quia rem. 
-                    Facere.
-                  </p>
+            </div>
+
+          </div>
+          <div class="col-lg-6 col-md-12 banner-img">
+            <img src="./img/Banner-Img.png" alt="Banner-Img" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Banner Area -->
+
+    <!-- About Area -->
+    <section class="about-area" id="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <div class="about-img">
+              <img src="./img/About-Img.png" alt="About Image" class="img-fliud">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 about-title">
+            <h2 class="text-uppercase pt-5">
+              <span>Let me</span>
+              <span>introduce</span>
+              <span>myself</span>
+            </h2>
+            <div class="paragraph py-4 w-75">
+              <p class="para">
+                I'm a software engineering student. I primarily program in Javascript,
+                C# and Java. Desktop applications are primarily my focus now, but I can also design and create web
+                applications and fiddle with websites. I enjoy exploring ideas and concepts and learning new skills on
+                the fly.
+              </p>
+              <p class="para">
+                I dabble in the fine art of code often crossing the line between reality and dreams. I love to dream of
+                a future where I
+                made a change it does not matter how big or small.
+              </p>
+              <a href="./assets/Gustaf_Delport_CV.pdf" class="btn button secondary-btn text-uppercase" download>Download
+                CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Area -->
+
+    <!-- Skills area -->
+    <section class="skills-area" id="skills">
+      <div class="container-fliud" id="skills-div">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="skills-info">
+              <div class="title-text">
+                <h3>
+                  Skills
+                </h3>
+                <h2>Skills and Libraries</h2>
+              </div>
+              <p>
+                Industrious Student offering an excellent academic background in computer science in addition to a
+                diverse skill set, including leadership, programming, and patience.
+                Dedicated team contributor with a talent for managing deadlines.
+              </p>
+              <p>
+                I aim to always learn new skills, Libraries, and frameworks as I go along. A few of my skills below.
+              </p>
+              <div class="skills">
+                <div class="row">
+                  <div class="col-sm-3 col-xs-6">
+                    <div class="skills-inner">
+                      <h4>C#</h4>
+                      <p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </p>
+                    </div>
+                    <div class="skills-inner">
+                      <h4>Java</h4>
+                      <p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+                      </p>
+                    </div>
+                    <div class="skills-inner">
+                      <h4>JavaScript</h4>
+                      <p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                      </p>
+                    </div>
+                    <div class="skills-inner">
+                      <h4>Git & GitHub</h4>
+                      <p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6">
+                    <div class="skills-inner">
+                      <h4>Leadership</h4>
+                      <p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </p>
+                    </div>
+                    <div class="skills-inner">
+                      <h4>Spreadsheet management</h4>
+                      <p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </p>
+                    </div>
+                    <div class="skills-inner">
+                      <h4>HTML & CSS</h4>
+                      <p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+                      </p>
+                    </div>
+                    <div class="skills-inner">
+                      <h4>Discipline</h4>
+                      <p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6">
+                    <div class="skills-inner">
+                      <h4>People skills</h4>
+                      <p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+                      </p>
+                    </div>
+                    <div class="skills-inner">
+                      <h4>React</h4>
+                      <p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </p>
+                    </div>
+                    <div class="skills-inner">
+                      <h4>Code Reviews</h4>
+                      <p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </p>
+                    </div>
+                    <div class="skills-inner">
+                      <h4>SQL Server</h4>
+                      <p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-sm-3 col-xs-6">
+                    <div class="skills-inner">
+                      <h4>Python</h4>
+                      <p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </p>
+                    </div>
+                    <div class="skills-inner">
+                      <h4>Graphic Designs</h4>
+                      <p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-alt" aria-hidden="true"></i>
+                      </p>
+                    </div>
+                    <div class="skills-inner">
+                      <h4>Gaming</h4>
+                      <p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </p>
+                    </div>
+                    <div class="skills-inner">
+                      <h4>Bilingual in Afrikaans and English</h4>
+                      <p>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        <!-- End About Area -->
+        </div>
+      </div>
+    </section>
+    <!-- End Skills area -->
 
-    </main>
-    <!-- End Main Area -->
+    <!-- Journey area -->
+    <section class="journey-area" id="journey">
+      <div class="container-fliud" id="skills-div">
+        <div class="title-text journey-title">
+          <h3>My Journey</h3>
+          <h2 class="title-text">a quick dive into my journey</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="education">
+              <div class="resume-item">
+                <h4>Bachelor of Computing</h4>
+                <label class="resume-date">2019-2022</label>
+                <span>Belgium Campus</span>
+                <p>
+                  Belgium Campus is a private IT college in South Africa. I'm currently enrolled in 
+                  their 4-year course (BCOMP) and specializing in Software Engineering. Due to Covid-19 
+                  all classes are taking place online.
 
-    <script src="./js/jquery.3.6.0.js"></script>
-    <script src="./js/particles.js"></script>
-    <script src="./js/app.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+                </p>
+              </div>
+              <div class="resume-item">
+                <h4>High School</h4>
+                <label class="resume-date">2014-2018</label>
+                <span>Brits High</span>
+                <p>
+                  High school Brits is a small high school located in North-West, Brits I was enrolled for 5 years where I completed
+                  matric there. I was awarded the honours cloth for leadership for being part of the schools ruling body since grade 8.
+
+                </p>
+              </div>
+              <div class="resume-item">
+                <h4>Online Courses</h4>
+                <label class="resume-date">2019-present</label>
+                <span>Online</span>
+                <p>
+                  I am a active learners and I regualry sign-up for online classes via Udemy, I also like to dabble in coding challenges,
+                  I Completed the RoboCode challenge on HackeRack as an assessment for BBD Software.
+                </p>
+              </div>
+              <div class="resume-item">
+                <h4>Master classes</h4>
+                <label class="resume-date">2020-present</label>
+                <span>Online</span>
+                <p>
+                  Belgium Campus reguarly host master classes for students to attend I love to make use of the oppertunities to attend these
+                  master classes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="experience">
+              <div class="resume-item">
+                <h4>Bartender</h4>
+                <label class="resume-date">2018-present</label>
+                <span>Fatherland Estate</span>
+                <p>
+                  Learned the fundamentals of 
+                  balancing stock with the register cash flow and the card transactions,Devoted special 
+                  emphasis to punctuality and worked to maintain outstanding attendance record.
+                </p>
+              </div>
+              <div class="resume-item">
+                <h4>Bartender</h4>
+                <label class="resume-date">2020-present</label>
+                <span>Onder Engele</span>
+                <p>
+                  Offered the venue coordinator advice about key points I noticed whilst working there out of my 
+                  experience working at Fatherland Estate, we have been working closely since to optimize the flow of the bar.
+                </p>
+              </div>
+              <div class="resume-item">
+                <h4>Assistant refrigeration technician</h4>
+                <label class="resume-date">2020-present</label>
+                <span>Frost flake refrigeration and air conditioning</span>
+                <p>
+                  Learned how refrigeration works with the guidance
+                  of Stephan Kriel, eventually installing basic air
+                  conditioners.
+                </p>
+              </div>
+              <div class="resume-item">
+                <h4>Tutor</h4>
+                <label class="resume-date">2020-present</label>
+                <span>Math Tutor</span>
+                <p>
+                  Gave in-person instruction to grade 8 and 9 students to help them acquire greater knowledge for weekly exams,
+                  Assisted in assembling lesson plans to administer to students and keep them on track with assignments.        
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Journey area -->
+
+    <!-- Projects area -->
+    <section class="projects-area" id="projects">
+      <div class="container-fluid" id="particles-js">
+        <div class="row">
+          <div class="col-md-12">
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Projects area -->
+
+    <!-- Contact area -->
+    <section class="contact-area" id="contact">
+      <div class="container-fliud" id="skills-div">
+        <div class="title-text journey-title">
+          <h3>Contact Me</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="education">
+              <div class="resume-item">
+                <h4>Mail</h4>
+                <i class="fab fa-google" aria-hidden="true"> <strong>Gmail - </strong> <a href="mailto:gustafdelport@gmail.com">gustafdelport@gmail.com</a></i>
+                <i class="fab fa-apple" aria-hidden="true"> <strong>icloud - </strong> <a href="mailto:gustafdelport@icloud.com">gustafdelport@icloud.com</a></i>
+              </div>
+              <div class="resume-item">
+                <h4>Social</h4>
+                <i class="fab fa-discord" aria-hidden="true"> <strong>Discord - </strong> Gunter#6733</i>
+                <i class="fab fa-instagram" aria-hidden="true"> <strong>Instagram - </strong> <a href="https://www.instagram.com/gustaf_d/">G_Delport</a></i>
+                <i class="fab fa-linkedin" aria-hidden="true"> <strong>Linkedin - </strong> <a href="https://www.linkedin.com/in/gustaf-delport-896480177/?originalSubdomain=za">GustafDelport</a></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="experience">
+              <div class="resume-item">
+                <h4>Location</h4>
+                <span>Brits, North-West</span>
+                <i class="fab fa-magento" aria-hidden="true"> <strong>Location - </strong> <a href="https://www.google.com/maps/place/Brits/@-25.5506764,27.7647383,12z/data=!3m1!4b1!4m13!1m7!3m6!1s0x1e95619cbec65033:0xf66262b07a847b4c!2sPretoria!3b1!8m2!3d-25.7478676!4d28.2292712!3m4!1s0x1ebe33fe32f09eab:0x34fb664f6466e47e!8m2!3d-25.6099907!4d27.7959681">Here</a></i>
+              </div>
+              <div class="resume-item">
+                <h4>Website</h4>         
+                <i class="fab fa-github" aria-hidden="true"> <strong>Github - </strong> <a href="https://github.com/GustafDelport">GustafDelport</a></i>
+                <i class="fab fa-wpbeginner" aria-hidden="true"> <strong>Website - </strong> <a href="#">Home</a></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact area -->
+
+  </main>
+  <!-- End Main Area -->
+
+  <script src="./js/jquery.3.6.0.js"></script>
+  <script src="./js/particles.js"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
 </body>
 
 </html>
