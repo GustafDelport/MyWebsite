@@ -1,1 +1,13 @@
 @import url(./fonts.css);
+
+/* nav */
+
+.head .main_menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5 rem;
+}
+
+.head .main_menu .navbar{
+    padding: 1rem 20rem;
+}
+
+/* end nav */
