@@ -8,8 +8,8 @@ html, body{
 :root{
     --primary-colorOne: #0cd137;
     --primary-colorTwo: #e4a906;
-    --title-color: #141313;
-    --text-color:#777777;
+    --title-color: ;
+    --text-color:#110e0e;
     --border-color:#201f1f17;
     --gradient-color: linear-gradient(90deg, #0cd137 0%,#e4a906 100%);
     --shadow-color: 0px 10px 30px rgba(207, 140, 15, 0.3);
