@@ -74,3 +74,16 @@ p.para{
     color: var(--text-color);
     font: normal 500 16px/25px var(--poppins);
 }
+
+.font-Poppins{
+    font-family: var(--poppins);
+}
+
+button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+   outline: 0px !important;
+   box-shadow: none !important; 
+}

@@ -2,7 +2,7 @@
 @import url(./partials/_variables.css);
 @import url(./partials/_global.css);
 
-#particles-js canvas{
+#particles-js canvas {
     display: block;
     vertical-align: bottom;
 }
@@ -85,7 +85,7 @@
     font: normal bold 50px/72px var(--poppins);
 }
 
-.site-main .banner-area{
+.site-main .banner-area {
     padding: 100px 5rem;
     position: relative;
     background: var(--box-shadow);
@@ -273,7 +273,7 @@
     font-size: 14px;
     line-height: 1;
     margin-bottom: 10px;
-    text-decoration:  none;
+    text-decoration: none;
     letter-spacing: .3px;
     color: #cac7ca;
 }
@@ -308,6 +308,56 @@
 /* end contact area */
 
 /* projects area */
+.site-main .project-area {
+    padding: 4rem 0;
+    background-color: #cac7c7;
+}
 
+.site-main .project-area .button-group button {
+    background: transparent;
+    border: none;
+    font: normal 500 16px/50px var(--poppins);
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button+button {
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project>.title h4 {
+    font: normal 700 25px/12px var(--poppins);
+    color: black;
+}
+
+.site-main .project-area .grid .our-project .img a:hover img {
+    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+.site-main .project-area .grid .our-project .img{
+    width: 300px;
+    height: 300px;
+}
+
+.site-main .project-area .project-title h1{
+    font: normal bold 30px/50px var(--poppins);
+    line-height: 1;
+    letter-spacing: .7px;
+    margin: 0;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    color: black
+}
+.site-main .project-area .project-title p{
+    padding: .4rem 0;
+    font-size: 20px;
+    color: black;
+    font-family: var(--poppins);
+}
+
+.site-main .project-area .element-item .text-sec{
+    font-family: var(--poppins);
+    color: black;
+}
 
 /* end projects area */
