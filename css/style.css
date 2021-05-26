@@ -170,6 +170,7 @@
 .site-main .skills-info p {
     padding: .4rem 0;
     font-size: 20px;
+    font-family: var(--poppins);
     color: white;
 }
 
