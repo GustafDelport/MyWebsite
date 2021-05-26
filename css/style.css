@@ -183,13 +183,12 @@
 
 .journey-area .resume-item h4{
     font-size: 15px;
-    font-faxt-transform: capitalize;
     color: #fff;
     margin-bottom: 15px;
-}mily: var(--poppins);
+    font-family: var(--poppins);
     font-weight: 600;
     line-height: 1;
-    te
+}
 
 .journey-area .resume-item .resume-date{
     display: inline-block;
