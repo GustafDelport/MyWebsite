@@ -2,7 +2,7 @@
 @import url(./partials/_variables.css);
 @import url(./partials/_global.css);
 
-#particles-js{
+#particles-js {
     height: 100%;
     width: 100%;
     background-color: rgba(12, 12, 11, 0.3);
@@ -11,78 +11,82 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
 }
+
 /* nav */
 
-.head .main_menu .navbar .navbar-brand{
+.head .main_menu .navbar .navbar-brand {
     padding: 0 2rem 0 5 rem;
 }
 
-.head .main_menu .navbar{
+.head .main_menu .navbar {
     padding: 1rem 20rem;
 }
 
-.head .main_menu .nav-item .nav-link{
+.head .main_menu .nav-item .nav-link {
     font: normal 500 15px/2px var(--poppins);
     text-transform: uppercase;
     padding: 1.7rem;
     color: whitesmoke
 }
 
-.head .main_menu .navbar-nav .active{
+.head .main_menu .navbar-nav .active {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.head .main_menu .navbar-nav a:hover{
+.head .main_menu .navbar-nav a:hover {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
 /* end nav */
 
 /* banner */
-.site-main .site-banner{
+.site-main .site-banner {
     background: transparent no-repeat 0% 50%;
 }
 
-.site-main .site-banner .site-title h3{
+.site-main .site-banner .site-title h3 {
     padding-top: 35%;
     font-weight: 500;
 
 }
-.site-main .site-banner .site-title h3::after{
+
+.site-main .site-banner .site-title h3::after {
     content: "";
     height: 2px;
     width: 18vw;
     background: black;
     display: inline-block;
     margin-left: 5%;
-    transform: translateY(-10px);   
+    transform: translateY(-10px);
 }
-.site-main .site-banner .site-title h1{
+
+.site-main .site-banner .site-title h1 {
     font-size: 5rem;
 }
 
-.site-main .site-banner .site-title h4{
+.site-main .site-banner .site-title h4 {
     font-size: 1.5rem;
 }
 
-.site-main .site-banner .banner-img > img{
+.site-main .site-banner .banner-img>img {
     padding: 7rem 0;
     width: 90rem;
 }
 
-.title-text{
+.title-text {
     font: normal bold 50px/72px var(--poppins);
 }
 
 /* end banner */
 
 /* About */
-.site-main .about-area{
+.site-main .about-area {
     padding: 8rem 5rem;
     position: relative;
     background: var(--box-shadow);
@@ -91,53 +95,54 @@
     color: var(--text-color);
 }
 
-.site-main .about-area .about-title h2 >span{
+.site-main .about-area .about-title h2>span {
     display: block;
     font: normal bold 49px/60px var(--poppins);
     letter-spacing: 21px;
 }
 
-.site-main .about-area .about-title .paragraph > p{
-    padding:.4rem 0;
+.site-main .about-area .about-title .paragraph>p {
+    padding: .4rem 0;
 }
 
 /* end About */
 
 /* skills area */
-.skills-area{
+.skills-area {
     position: relative;
     background: #2a2e31;
     padding-top: 100px;
     padding-bottom: 100px;
     color: white;
 }
-.skills-area .skills-info .skills{
+
+.skills-area .skills-info .skills {
     position: relative;
     background-color: transparent;
     padding: 25px 30px;
     margin-bottom: 25px;
 }
 
-.skills-area .skills-info .skills .skills-inner i{
+.skills-area .skills-info .skills .skills-inner i {
     font-size: 15px
 }
 
-.skills-area .skills-inner i{
+.skills-area .skills-inner i {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     color: transparent;
 }
 
-.skills-area .skills-info .skills .skills-inner:last-of-type p{
+.skills-area .skills-info .skills .skills-inner:last-of-type p {
     padding-bottom: 0
 }
 
-.skills-area .skills-info .skills .skills-inner p{
+.skills-area .skills-info .skills .skills-inner p {
     padding-bottom: 22px;
     margin: 0
 }
 
-.skills-area .skills-info .skills h4{
+.skills-area .skills-info .skills h4 {
     font-size: 18px;
     margin: 0;
     font-family: var(--poppins);
@@ -146,26 +151,27 @@
     color: white;
 }
 
-.skills-area .skills-info .skills h4:hover{
+.skills-area .skills-info .skills h4:hover {
     background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.site-main .skills-info p{
-    padding:.4rem 0;
+.site-main .skills-info p {
+    padding: .4rem 0;
     font-size: 20px;
     color: white;
 }
 
-#skills-div{
+#skills-div {
     margin-left: 10%;
     margin-right: 10%;
 }
+
 /* skills area */
 
-.journey-area{
+.journey-area {
     position: relative;
     background: #1b1b1a;
     padding-top: 100px;
@@ -173,7 +179,7 @@
     color: white;
 }
 
-.journey-area .resume-item{
+.journey-area .resume-item {
     position: relative;
     padding: 20px;
     margin-bottom: 30px;
@@ -181,7 +187,7 @@
     border-left: 2px solid;
 }
 
-.journey-area .resume-item h4{
+.journey-area .resume-item h4 {
     font-size: 15px;
     color: #fff;
     margin-bottom: 15px;
@@ -190,7 +196,7 @@
     line-height: 1;
 }
 
-.journey-area .resume-item .resume-date{
+.journey-area .resume-item .resume-date {
     display: inline-block;
     font-family: var(--poppins);
     color: #0cd137;
@@ -200,17 +206,19 @@
     margin: 0;
 }
 
-.journey-area .resume-item a{
+.journey-area .resume-item a {
     font-size: 14px;
     line-height: 1;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+    ;
     letter-spacing: .3px;
     color: #bdbcbd;
 }
 
-.journey-area .resume-item i{
+.journey-area .resume-item i {
     display: block;
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
+    ;
     font-size: 14px;
     line-height: 1;
     letter-spacing: .3px;
@@ -218,44 +226,50 @@
 }
 
 
-.journey-area .resume-item p{
-    color: var(--text-color);
-    font: normal 500 16px/25px var(--poppins);
-    color: white;
-}
-#acus{
-    display: block;
-    font-size: 14px;
-    line-height: 1;
-    margin-bottom: 10px;;
-    letter-spacing: .3px;
-    color: #bdbcbd; 
-}
-
-.contact-area .resume-item p{
+.journey-area .resume-item p {
     color: var(--text-color);
     font: normal 500 16px/25px var(--poppins);
     color: white;
 }
 
-.contact-area .resume-item i{
+/* contact area */
+
+#acus {
     display: block;
-    margin-bottom: 10px;;
     font-size: 14px;
     line-height: 1;
+    margin-bottom: 10px;
+    ;
     letter-spacing: .3px;
     color: #bdbcbd;
 }
 
-.contact-area .resume-item a{
+.contact-area .resume-item p {
+    color: var(--text-color);
+    font: normal 500 16px/25px var(--poppins);
+    color: white;
+}
+
+.contact-area .resume-item i {
+    display: block;
+    margin-bottom: 10px;
+    ;
     font-size: 14px;
     line-height: 1;
-    margin-bottom: 10px;;
+    letter-spacing: .3px;
+    color: #0cd137;
+}
+
+.contact-area .resume-item a {
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 10px;
+    text-decoration:  none;
     letter-spacing: .3px;
     color: #bdbcbd;
 }
 
-.contact-area .resume-item h4{
+.contact-area .resume-item h4 {
     font-size: 15px;
     font-family: var(--poppins);
     font-weight: 600;
@@ -265,7 +279,7 @@
     margin-bottom: 15px;
 }
 
-.contact-area .resume-item{
+.contact-area .resume-item {
     position: relative;
     padding: 20px;
     margin-bottom: 30px;
@@ -273,7 +287,7 @@
     border-left: 2px solid;
 }
 
-.contact-area{
+.contact-area {
     margin-bottom: 40px;
     position: relative;
     background: #2a2e31;
@@ -281,3 +295,5 @@
     padding-bottom: 100px;
     color: white;
 }
+
+/* end contact area */
